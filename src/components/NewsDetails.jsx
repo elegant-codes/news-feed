@@ -19,8 +19,6 @@ const NewsDetails = ({match}) => {
         </div>
       </div>
 
-        <h4>Kindly drop your comments</h4>
-
      </div>
     
 
@@ -29,12 +27,9 @@ const NewsDetails = ({match}) => {
       <div class="row mb-5">
           <div class="col-md-6 col-md-offset-3">
               <div class="panel panel-info">
-                  <div class="panel-body">
+                  <div class="panel-body my-5">
                   <HyvorTalk.Embed websiteId={3757} />
-                      <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea"></textarea>
-                      <form class="form-inline">
-                          <button class="btn btn-dark pull-right" type="button">Share</button>
-                      </form>
+                     
                   </div>
               </div>
           </div>
