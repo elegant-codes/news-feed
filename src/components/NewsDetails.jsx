@@ -1,3 +1,5 @@
+import React from 'react'
+import HyvorTalk from 'hyvor-talk-react'
 import {Data} from './data'
 
 const NewsDetails = ({match}) => {
@@ -28,6 +30,7 @@ const NewsDetails = ({match}) => {
           <div class="col-md-6 col-md-offset-3">
               <div class="panel panel-info">
                   <div class="panel-body">
+                  <HyvorTalk.Embed websiteId={3757} />
                       <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea"></textarea>
                       <form class="form-inline">
                           <button class="btn btn-dark pull-right" type="button">Share</button>
